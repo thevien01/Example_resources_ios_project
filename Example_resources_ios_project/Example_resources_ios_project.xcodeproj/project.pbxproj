@@ -13,6 +13,7 @@
 		D702236920DA5A8E00FE2332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D702236820DA5A8E00FE2332 /* Assets.xcassets */; };
 		D702236C20DA5A8E00FE2332 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D702236A20DA5A8E00FE2332 /* LaunchScreen.storyboard */; };
 		D702237520DA5ADB00FE2332 /* UIApplication+Devices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702237420DA5ADB00FE2332 /* UIApplication+Devices.swift */; };
+		D7E0824F20F50F6000008D0F /* NSLayoutConstraintExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0824E20F50F6000008D0F /* NSLayoutConstraintExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D702236B20DA5A8E00FE2332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D702236D20DA5A8E00FE2332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D702237420DA5ADB00FE2332 /* UIApplication+Devices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Devices.swift"; sourceTree = "<group>"; };
+		D7E0824E20F50F6000008D0F /* NSLayoutConstraintExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraintExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				D702237420DA5ADB00FE2332 /* UIApplication+Devices.swift */,
+				D7E0824E20F50F6000008D0F /* NSLayoutConstraintExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				D702236420DA5A8C00FE2332 /* ViewController.swift in Sources */,
 				D702237520DA5ADB00FE2332 /* UIApplication+Devices.swift in Sources */,
 				D702236220DA5A8C00FE2332 /* AppDelegate.swift in Sources */,
+				D7E0824F20F50F6000008D0F /* NSLayoutConstraintExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

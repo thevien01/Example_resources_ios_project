@@ -10,3 +10,6 @@ General library, extensions, functions
         Do something!
     }
 ```
+
+#Set constraint for iPhoneX in storyboard and xib file 
+![](https://scontent.fsgn2-1.fna.fbcdn.net/v/t1.0-9/36880791_1686377768154810_7497924455318945792_n.jpg?_nc_cat=0&oh=e27a45cd85192467123d32fe517f18de&oe=5B9F9D5B)

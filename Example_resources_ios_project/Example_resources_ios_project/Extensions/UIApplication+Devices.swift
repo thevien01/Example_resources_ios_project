@@ -36,4 +36,11 @@ extension UIApplication{
     static func iOS_VERSION_LESS_THAN_OR_EQUAL_TO(version: String) -> Bool {
         return UIDevice.current.systemVersion.compare(version, options: NSString.CompareOptions.numeric) != ComparisonResult.orderedDescending
     }
+
+    static func isIphoneX()-> Bool{
+        if UIDevice.current.userInterfaceIdiom == .phone && UIScreen.main.nativeBounds.size.height == 2436{
+            return true
+        }
+        return false
+    }
 }
